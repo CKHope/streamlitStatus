@@ -104,7 +104,7 @@ def main():
     # Define the status options dynamically with English - Chinese pairs
     status_options_dict = {
         "在微信 & Chrome打开 - OK": "正常",
-        "无法在微信打开 & 在Chrome打开 - Không mở được trong wechat nhưng mở được trong Chrome": "无法在微信打开",
+        "无法在微信打开 & 在Chrome打开 - Không mở được trong wechat, nhưng mở được trong Chrome": "无法在微信打开",
         "无法在微信 & Chrome打开 - Không mở được trong wechat & chrome": "无法在Chrome打开"
     }
 
