@@ -80,9 +80,23 @@ def display_status_summary_with_expanders(folder_path, status_options):
                 if image_status == status:
                     st.write(f"- {image_file}")
 
+videoPackageContent="""
+🌸🌿🌸🌿🌸🌿🌸🌿🌸🌿🌸🌿
+你好!
+🌸🙏🌸
+请打开它并帮助您的家人和朋友
+✳️也可以在QQ浏览器，UC浏览器，谷歌浏览器或苹果自带浏览器打开以下网址安装注册✳️🌿🌿
+https://811922.xyz/ctth-t/
+https://811922.xyz/kt1-t/
+https://811922.xyz/9b-t/
+https://811922.xyz/ha-t/
+https://811922.xyz/bh-t/
+🌿🌸🌿🌸🌿🌸🌿🌸🌿🌸🌿🌸"""
 # Main function to run the Streamlit app
 def main():
     st.title("Image Status Input")
+    
+    st.write(videoPackageContent)
     
     selected_date = st.date_input("Select a date", value=datetime.today())
     folder_path = selected_date.strftime("%Y%m%d")
